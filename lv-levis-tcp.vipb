@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-15 22:14:18" Modified_Date="2022-11-14 10:19:43" Creator="Localization Tester" Comments="" ID="c06990270e8cb00cda04a6d4e9d1d97a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-15 22:14:18" Modified_Date="2023-02-04 18:43:13" Creator="Localization Tester" Comments="" ID="c78a30b22034a275bfbde53d71e3a553">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Tiny_TCP</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -32,7 +32,8 @@
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-levis-tcp</URL>
-      <Release_Notes/>
+      <Release_Notes>1.0.0.4
+- Removed different unflatten handling for string data</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -430,7 +431,7 @@
         <Path>TCP Comms\Get State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18F4176774A4CCC4F584A2B9DEA01A37</GUID>
+      <GUID>587A44D7E881A09A8598544D0704E728</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -507,7 +508,7 @@
         <Path>Palettes\State Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79D3EEF9494DE4F25638DC9568AE398A</GUID>
+      <GUID>8755702617F40682F35009E79F51B871</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
